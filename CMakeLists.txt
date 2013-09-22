@@ -4,6 +4,8 @@ project(labview_bridge)
 find_package(catkin REQUIRED COMPONENTS 
 	roscpp 
 	rospy 
+	sensor_msgs
+	std_msgs
 	telerob_msgs
 )
 
